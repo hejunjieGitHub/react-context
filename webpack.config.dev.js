@@ -48,10 +48,10 @@ module.exports={
 			// 	from:__dirname+"/src/mock",
 			// 	to:__dirname+"/dist/mock"
 			// }]),
-			new CopyWebpackPlugin([{
-				from:__dirname+"/src/assets",
-				to:__dirname+"/dist/assets"
-			}]),
+			// new CopyWebpackPlugin([{
+			// 	from:__dirname+"/src/assets",
+			// 	to:__dirname+"/dist/assets"
+			// }]),
 			// 热加载插件
 			new webpack.HotModuleReplacementPlugin(),
 			new webpack.NamedModulesPlugin(),
